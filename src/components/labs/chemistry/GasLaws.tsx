@@ -134,7 +134,7 @@ export default function GasLaws() {
                 <polygon points="-2,0 2,0 0,-26" fill="#EF4444" />
                 <circle cx="0" cy="0" r="4" fill="#A1A1AA" />
               </motion.g>
-              <text x="0" y="15" fill="#FFFFFF" fontSize="10" textAnchor="middle font-bold">atm</text>
+              <text x="0" y="15" fill="#FFFFFF" fontSize="10" textAnchor="middle" className="font-bold">atm</text>
             </g>
 
             {/* Fire (Temperature indicator) */}
