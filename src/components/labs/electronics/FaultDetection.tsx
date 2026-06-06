@@ -38,9 +38,10 @@ export default function FaultDetection() {
   const current = getSystemCurrent();
 
   return (
-    <div className="flex-1 flex flex-col min-h-0 bg-[#0A0A0A]">
+    <div className="flex-1 flex flex-col md:flex-row min-h-0 bg-[#0A0A0A] overflow-y-auto custom-scrollbar md:overflow-hidden">
+      <div className="flex-1 flex flex-col min-w-0">
       {/* Controls Panel */}
-      <div className="h-24 shrink-0 border-b border-white/5 bg-[#111111] flex items-center px-6 gap-6 overflow-x-auto">
+      <div className="min-h-[6rem] shrink-0 border-b border-white/5 bg-[#111111] flex items-center px-4 md:px-6 gap-4 md:gap-6 overflow-x-auto overflow-x-auto">
         <div className="flex-1 min-w-[250px]">
           <label className="text-xs font-semibold text-zinc-400 mb-1.5 flex justify-between">
             <span>{t("electronics.fault.scenario") || "Fault Scenario"}</span>
@@ -64,7 +65,7 @@ export default function FaultDetection() {
       </div>
 
       {/* Simulation Area */}
-      <div className="flex-1 relative overflow-hidden flex flex-col md:flex-row items-center justify-center p-8 gap-8">
+      <div className="flex-1 relative overflow-hidden flex flex-col md:flex-row items-center justify-center min-h-[400px] md:min-h-0 p-8 gap-8">
         
         {/* Schematic Area */}
         <div className="flex-1 w-full max-w-2xl aspect-[4/3] relative">

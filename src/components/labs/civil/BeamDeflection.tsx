@@ -23,9 +23,10 @@ export default function BeamDeflection() {
   const visualBend = Math.min(deflection * 5, 80); // Cap visual bending
 
   return (
-    <div className="flex-1 flex flex-col min-h-0 bg-[#0A0A0A]">
+    <div className="flex-1 flex flex-col md:flex-row min-h-0 bg-[#0A0A0A] overflow-y-auto custom-scrollbar md:overflow-hidden">
+      <div className="flex-1 flex flex-col min-w-0">
       {/* Controls Panel */}
-      <div className="h-24 shrink-0 border-b border-white/5 bg-[#111111] flex items-center px-6 gap-6 overflow-x-auto">
+      <div className="min-h-[6rem] shrink-0 border-b border-white/5 bg-[#111111] flex items-center px-4 md:px-6 gap-4 md:gap-6 overflow-x-auto overflow-x-auto">
         <div className="flex-1 min-w-[200px]">
           <label className="text-xs font-semibold text-zinc-400 mb-1.5 flex justify-between">
             <span>{t("civil.controls.load") || "Point Load (P)"}</span>
@@ -65,7 +66,7 @@ export default function BeamDeflection() {
       </div>
 
       {/* Simulation Area */}
-      <div className="flex-1 relative overflow-hidden flex items-center justify-center p-8">
+      <div className="flex-1 relative overflow-hidden flex items-center justify-center min-h-[400px] md:min-h-0 p-8">
         <div className="w-full max-w-4xl aspect-[21/9] relative">
           <svg viewBox="0 0 1000 400" className="w-full h-full drop-shadow-2xl">
             {/* Background Grid */}

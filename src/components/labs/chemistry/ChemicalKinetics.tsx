@@ -30,9 +30,10 @@ export default function ChemicalKinetics() {
   const bubbleCount = Math.min(30, Math.max(5, Math.floor(reactionRate * 5000)));
 
   return (
-    <div className="flex-1 flex flex-col min-h-0 bg-[#0A0A0A]">
+    <div className="flex-1 flex flex-col md:flex-row min-h-0 bg-[#0A0A0A] overflow-y-auto custom-scrollbar md:overflow-hidden">
+      <div className="flex-1 flex flex-col min-w-0">
       {/* Controls Panel */}
-      <div className="h-24 shrink-0 border-b border-white/5 bg-[#111111] flex items-center px-6 gap-6 overflow-x-auto">
+      <div className="min-h-[6rem] shrink-0 border-b border-white/5 bg-[#111111] flex items-center px-4 md:px-6 gap-4 md:gap-6 overflow-x-auto overflow-x-auto">
         <div className="flex-1 min-w-[200px]">
           <label className="text-xs font-semibold text-zinc-400 mb-1.5 flex justify-between">
             <span>{t("chemistry.controls.reaction") || "Reaction Type"}</span>
@@ -74,7 +75,7 @@ export default function ChemicalKinetics() {
       </div>
 
       {/* Simulation Area */}
-      <div className="flex-1 relative overflow-hidden flex items-center justify-center p-8">
+      <div className="flex-1 relative overflow-hidden flex items-center justify-center min-h-[400px] md:min-h-0 p-8">
         <div className="w-full max-w-2xl aspect-[4/3] relative">
           <svg viewBox="0 0 600 450" className="w-full h-full drop-shadow-2xl">
             
@@ -171,8 +172,10 @@ export default function ChemicalKinetics() {
         </div>
       </div>
       
+      </div>
+      
       {/* Side Panel */}
-      <div className="absolute right-0 top-0 bottom-0 w-80 border-l border-white/5 bg-[#050505] flex flex-col pointer-events-none md:pointer-events-auto opacity-0 md:opacity-100 md:relative">
+      <div className="w-full md:w-80 shrink-0 border-t md:border-t-0 md:border-l border-white/5 bg-[#050505] flex flex-col">
         <div className="p-6 border-b border-white/5">
           <h2 className="text-lg font-bold text-white mb-2">{t("chemistry.kinetics.title") || "Kinetics Engine"}</h2>
           <p className="text-sm text-zinc-400">{t("chemistry.kinetics.desc") || "Real-time reaction rates calculated using the Arrhenius equation."}</p>
