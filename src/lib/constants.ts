@@ -6,8 +6,6 @@ export const DASHBOARD_NAV = [
   { label: "Chemistry Lab", href: "/dashboard/chemistry", icon: "FlaskConical", tKey: "nav.chemistry" },
   { label: "Electronics Lab", href: "/dashboard/electronics", icon: "Cpu", tKey: "nav.electronics" },
   { label: "AI Tutor", href: "/dashboard/ai-tutor", icon: "Bot", tKey: "nav.ai_tutor" },
-
-  { label: "Profile", href: "/dashboard/profile", icon: "UserCircle", tKey: "nav.profile" },
 ];
 
 export const STATS = [
