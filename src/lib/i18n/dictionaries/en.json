@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "automobile": "Automobile Lab",
+    "civil": "Civil Eng",
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "ai_tutor": "AI Tutor",
+    "notes": "Smart Notes",
+    "assignments": "Assignments",
+    "progress": "My Progress",
+    "logout": "Logout"
+  },
+  "automobile": {
+    "title": "Automobile Engineering",
+    "subtitle": "Explore engine mechanics, transmission, and vehicle systems",
+    "tabs": {
+      "4stroke": "4-Stroke Engine",
+      "2stroke": "2-Stroke Engine",
+      "fuel": "Fuel System",
+      "gear": "Gear System",
+      "compare": "Engine Comparison",
+      "quiz": "Fault Detection Quiz",
+      "ignition": "Spark Plug Ignition",
+      "electrical": "Electrical System",
+      "brakes": "Brake System",
+      "suspension": "Steering & Suspension"
+    },
+    "controls": {
+      "rpm": "Engine Speed (RPM)",
+      "gear": "Selected Gear"
+    },
+    "theory": {
+      "title": "Theory & Principles",
+      "4stroke": "The 4-stroke cycle consists of Intake, Compression, Power, and Exhaust strokes. This is the standard internal combustion engine.",
+      "2stroke": "The 2-stroke engine completes a power cycle with two strokes of the piston, making it lighter and simpler than a 4-stroke.",
+      "fuel": "The fuel system stores fuel and delivers it to the engine. It includes the tank, pump, filter, and injectors.",
+      "gear": "The transmission adapts the output of the internal combustion engine to the drive wheels. Gears provide speed and torque conversions.",
+      "compare": "Different powertrains have distinct characteristics. EVs offer high efficiency and instant torque, while diesels offer high torque and good economy.",
+      "quiz": "Test your diagnostic skills by identifying common automobile faults based on symptoms.",
+      "ignition": "The spark plug is responsible for igniting the compressed fuel-air mixture in a petrol engine. The high voltage arc initiates the power stroke.",
+      "electrical": "The automobile electrical system consists of the battery, starter, and alternator. The battery provides initial power to crank the engine via the starter motor. Once running, the alternator generates electricity to power vehicle systems and recharge the battery.",
+      "brakes": "Brake fluid transmits the force from your foot on the pedal to the brake calipers. The calipers squeeze the brake pads against the spinning disc rotor, converting kinetic energy into heat through friction.",
+      "suspension": "The rack and pinion converts rotational steering input into linear motion. Meanwhile, springs absorb vertical impacts and shock absorbers dampen the oscillation to maintain tire contact with the road."
+    },
+    "4stroke_details": {
+      "intake": "1. Intake",
+      "intake_desc": "Air + Fuel mixture enters cylinder.",
+      "compression": "2. Compression",
+      "compression_desc": "Piston moves up, compressing mixture.",
+      "power": "3. Power",
+      "power_desc": "Spark ignites mixture, pushing piston down.",
+      "exhaust": "4. Exhaust",
+      "exhaust_desc": "Waste gases are pushed out."
+    }
+  },
+  "physics": {
+    "title": "Physics Laboratory",
+    "subtitle": "Interactive simulations for electricity, mechanics, and waves",
+    "tabs": {
+      "circuit": "Ohm's Law Simulator",
+      "motion": "Newton's Laws",
+      "waves": "Wave Interference"
+    },
+    "controls": {
+      "voltage": "Voltage (V)",
+      "resistance": "Resistance (R)"
+    },
+    "calculations": {
+      "title": "Calculations",
+      "desc": "Live readings from the circuit simulation based on Ohm's Law.",
+      "current": "Current (I = V/R)",
+      "amps": "Amps",
+      "power": "Power (P = V×I)",
+      "watts": "Watts",
+      "formulas": "Formulas",
+      "current_flow": "Current Flow"
+    }
+  }
+}

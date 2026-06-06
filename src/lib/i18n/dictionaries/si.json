@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "මුල් පිටුව",
+    "dashboard": "පාලක පුවරුව",
+    "automobile": "මෝටර් රථ විද්‍යාගාරය",
+    "civil": "සිවිල් ඉංජිනේරු විද්‍යාව",
+    "physics": "භෞතික විද්‍යාව",
+    "chemistry": "රසායන විද්‍යාව",
+    "ai_tutor": "AI ගුරුවරයා",
+    "notes": "ස්මාර්ට් සටහන්",
+    "assignments": "පැවරුම්",
+    "progress": "මගේ ප්‍රගතිය",
+    "logout": "ඉවත් වන්න"
+  },
+  "automobile": {
+    "title": "මෝටර් රථ ඉංජිනේරු විද්‍යාව",
+    "subtitle": "එන්ජින් යාන්ත්‍ර විද්‍යාව, සම්ප්‍රේෂණය සහ වාහන පද්ධති ගවේෂණය කරන්න",
+    "tabs": {
+      "4stroke": "4-පහර එන්ජිම",
+      "2stroke": "2-පහර එන්ජිම",
+      "fuel": "ඉන්ධන පද්ධතිය",
+      "gear": "ගියර් පද්ධතිය",
+      "compare": "එන්ජින් සංසන්දනය",
+      "quiz": "දෝෂ හඳුනාගැනීමේ ප්‍රශ්නාවලිය",
+      "ignition": "ස්පාර්ක් ප්ලග් සිමියුලේෂන්",
+      "electrical": "Electrical System",
+      "brakes": "Brake System",
+      "suspension": "Steering & Suspension"
+    },
+    "controls": {
+      "rpm": "එන්ජින් වේගය (RPM)",
+      "gear": "තෝරාගත් ගියරය"
+    },
+    "theory": {
+      "title": "න්‍යාය සහ මූලධර්ම",
+      "4stroke": "4-පහර චක්‍රය යනු ආදාන, සම්පීඩන, බල සහ පිටාර පහර වලින් සමන්විත වේ. මෙය සම්මත අභ්‍යන්තර දහන එන්ජිමකි.",
+      "2stroke": "2-පහර එන්ජිම පිස්ටන් හි පහරවල් දෙකකින් බල චක්‍රයක් සම්පූර්ණ කරයි, එය 4-පහරට වඩා සරල ය.",
+      "fuel": "ඉන්ධන පද්ධතිය ඉන්ධන ගබඩා කර එන්ජිමට ලබා දෙයි. එයට ටැංකිය, පොම්පය, ෆිල්ටරය සහ ඉන්ජෙක්ටර් ඇතුළත් වේ.",
+      "gear": "සම්ප්‍රේෂණය එන්ජිමේ බලය රෝද වෙත ගෙන යයි. ගියර් වේගය සහ ව්‍යවර්ත (Torque) වෙනස්කම් සපයයි.",
+      "compare": "විවිධ එන්ජින් වලට විවිධ ලක්ෂණ ඇත. EVs ඉහළ කාර්යක්ෂමතාවයක් ලබා දෙන අතර ඩීසල් ඉහළ ව්‍යවර්තයක් ලබා දෙයි.",
+      "quiz": "රෝග ලක්ෂණ මත පදනම්ව මෝටර් රථ දෝෂ හඳුනාගැනීමෙන් ඔබේ කුසලතා පරීක්ෂා කරන්න.",
+      "ignition": "පෙට්‍රල් එන්ජිමක සම්පීඩිත ඉන්ධන-වායු මිශ්‍රණය දැල්වීම සඳහා ස්පාර්ක් ප්ලග් වගකිව යුතුය. එහි අධි වෝල්ටීයතා චාපය බල පහර ආරම්භ කරයි.",
+      "electrical": "The automobile electrical system consists of the battery, starter, and alternator. The battery provides initial power to crank the engine via the starter motor. Once running, the alternator generates electricity to power vehicle systems and recharge the battery.",
+      "brakes": "Brake fluid transmits the force from your foot on the pedal to the brake calipers. The calipers squeeze the brake pads against the spinning disc rotor, converting kinetic energy into heat through friction.",
+      "suspension": "The rack and pinion converts rotational steering input into linear motion. Meanwhile, springs absorb vertical impacts and shock absorbers dampen the oscillation to maintain tire contact with the road."
+    },
+    "4stroke_details": {
+      "intake": "1. ආදාන (Intake)",
+      "intake_desc": "වාතය + ඉන්ධන මිශ්‍රණය සිලින්ඩරයට ඇතුල් වේ.",
+      "compression": "2. සම්පීඩන (Compression)",
+      "compression_desc": "පිස්ටන් ඉහළට ගමන් කරමින් මිශ්‍රණය සම්පීඩනය කරයි.",
+      "power": "3. බල (Power)",
+      "power_desc": "පුලිඟු පේනුව මිශ්‍රණය දල්වා පිස්ටන් පහළට තල්ලු කරයි.",
+      "exhaust": "4. පිටාර (Exhaust)",
+      "exhaust_desc": "අපද්‍රව්‍ය වායු පිටතට තල්ලු කරනු ලැබේ."
+    }
+  },
+  "physics": {
+    "title": "Physics Laboratory",
+    "subtitle": "Interactive simulations for electricity, mechanics, and waves",
+    "tabs": {
+      "circuit": "Ohm's Law Simulator",
+      "motion": "Newton's Laws",
+      "waves": "Wave Interference"
+    },
+    "controls": {
+      "voltage": "Voltage (V)",
+      "resistance": "Resistance (R)"
+    },
+    "calculations": {
+      "title": "Calculations",
+      "desc": "Live readings from the circuit simulation based on Ohm's Law.",
+      "current": "Current (I = V/R)",
+      "amps": "Amps",
+      "power": "Power (P = V×I)",
+      "watts": "Watts",
+      "formulas": "Formulas",
+      "current_flow": "Current Flow"
+    }
+  }
+}
