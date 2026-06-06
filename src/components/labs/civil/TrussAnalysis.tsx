@@ -119,11 +119,11 @@ export default function TrussAnalysis() {
               <>
                 <motion.path d="M200 380 L200 320" stroke="#10B981" strokeWidth="4" strokeDasharray="6 4" animate={{ opacity: [0.5, 1, 0.5] }} transition={{ repeat: Infinity, duration: 1.5 }} />
                 <path d="M190 330 L200 310 L210 330 Z" fill="#10B981" />
-                <text x="200" y="395" fill="#10B981" fontSize="14" textAnchor="middle font-bold">{reaction} kN</text>
+                <text x="200" y="395" fill="#10B981" fontSize="14" textAnchor="middle" className="font-bold">{reaction} kN</text>
 
                 <motion.path d="M800 380 L800 320" stroke="#10B981" strokeWidth="4" strokeDasharray="6 4" animate={{ opacity: [0.5, 1, 0.5] }} transition={{ repeat: Infinity, duration: 1.5, delay: 0.75 }} />
                 <path d="M790 330 L800 310 L810 330 Z" fill="#10B981" />
-                <text x="800" y="395" fill="#10B981" fontSize="14" textAnchor="middle font-bold">{reaction} kN</text>
+                <text x="800" y="395" fill="#10B981" fontSize="14" textAnchor="middle" className="font-bold">{reaction} kN</text>
               </>
             )}
 
